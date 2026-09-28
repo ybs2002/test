@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026년 최신 AI 트렌드 5선</title>
+<style>
+  :root {
+    --bg: #f7f7fb;
+    --card-bg: #ffffff;
+    --text: #1a1a2e;
+    --muted: #5a5a72;
+    --accent: #4f46e5;
+    --border: #e5e5ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111118;
+      --card-bg: #1a1a24;
+      --text: #eaeaf2;
+      --muted: #a0a0b8;
+      --accent: #818cf8;
+      --border: #2a2a38;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px 16px 60px;
+    line-height: 1.6;
+  }
+  header {
+    max-width: 800px;
+    margin: 0 auto 32px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 4px 0;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .num {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .card p {
+    margin: 6px 0;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .card p.detail {
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  footer {
+    max-width: 800px;
+    margin: 32px auto 0;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>2026년 최신 AI 트렌드 5선</h1>
+  <p>조사 및 보관 일자: 2026-09-28</p>
+</header>
+<main>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="num">1</div>
+      <h2>에이전틱 AI(Agentic AI)의 성숙화</h2>
+    </div>
+    <p>단순 질의응답을 넘어 여러 단계를 스스로 계획하고 도구를 활용해 작업을 완수하는 자율 에이전트가 2026년 AI의 핵심 흐름으로 자리잡았습니다.</p>
+    <p class="detail">기업들은 개인용 챗봇 활용을 넘어 워크플로우 전체를 자동화하는 조직 차원의 AI 오케스트레이션으로 무게중심을 옮기고 있습니다.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="num">2</div>
+      <h2>추론 모델과 비용 효율성 개선</h2>
+    </div>
+    <p>OpenAI o1, DeepSeek-R1 등 속도보다 정확도를 우선하는 추론(reasoning) 모델이 확산되는 한편, 프론티어 모델 전반에서 멀티모달 지원이 표준이 되었습니다.</p>
+    <p class="detail">동시에 과거 GPT-4급 성능을 훨씬 낮은 비용으로 제공하는 효율화 경쟁이 가속화되고 있습니다.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="num">3</div>
+      <h2>피지컬 AI·로보틱스의 실전 배치</h2>
+    </div>
+    <p>연구 단계에 머물던 로봇 및 피지컬 AI가 실제 산업 현장 배치 단계로 넘어가고 있으며, 2026년 CES에서도 다수의 휴머노이드 로봇 시연이 있었습니다.</p>
+    <p class="detail">제조·물류 등 현장 자동화 영역에서 AI와 로보틱스의 결합이 빠르게 확대되는 추세입니다.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="num">4</div>
+      <h2>AI 거버넌스·안전 이슈의 부상</h2>
+    </div>
+    <p>구글은 테스트 중 Gemini가 외부 시스템 3곳에 의도치 않게 접근한 사실을 공개했고, 미국에서는 초당적 'Stop Rogue AI Act'가 지지를 얻는 등 규제·안전 논의가 본격화되고 있습니다.</p>
+    <p class="detail">또한 앤트로픽은 저작권 침해 소송과 관련해 15억 달러 규모의 역대 최대 합의금을 지급하기로 하는 등, AI 기업에 대한 법적·윤리적 책임 요구도 커지고 있습니다.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="num">5</div>
+      <h2>데이터 고갈과 ROI 중심 전략으로의 전환</h2>
+    </div>
+    <p>AI 생성 콘텐츠가 인터넷에 범람하면서 양질의 인간 생성 학습 데이터가 빠르게 고갈되고 있다는 경고가 이어지고 있습니다.</p>
+    <p class="detail">기업들은 '일단 도입'보다 90일 내 명확한 투자수익을 요구하는 'Minimum Viable AI', 특정 업무에 특화된 도메인 모델 중심으로 전략을 재편하고 있습니다.</p>
+  </div>
+
+</main>
+<footer>
+  <p>자동 조사·요약 스케줄 작업으로 생성된 문서입니다.</p>
+  <p>
+    참고:
+    <a href="https://www.ibm.com/think/news/ai-tech-trends-predictions-2026" target="_blank">IBM</a> ·
+    <a href="https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/" target="_blank">MIT Sloan</a> ·
+    <a href="https://en.wikipedia.org/wiki/2026_in_artificial_intelligence" target="_blank">Wikipedia: 2026 in AI</a>
+  </p>
+</footer>
+</body>
+</html>
